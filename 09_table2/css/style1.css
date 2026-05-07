@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+body, div, h2, table, caption, tr, th, td, br { margin:0; padding:0; }
+body { font-size:16px; line-height:1.5em; font-family:"돋움","Dotum",sans-serif; font-weight:normal; color:#333; }
+
+#stu1 { width:1200px;margin:50px auto; }
+#stu1 h2 { text-align:center; }
+#table1 { width:1200px; border-collapse:collapse; border:2px solid #666; }
+#table1 caption { text-align:left; margin:10px 0; }
+#table1 tr:first-child { border: 2px solid #666; }
+#table1 th, #table1 td { border:1px solid #999; text-align:center; padding: 5px; }
+#table1 tr:first-child th { background-color: #eaeaea; }
+#table1 td.align1 { text-align:left; padding-left:20px; font-size:14px; }
+
+/* html 순서대로 css 작업 */

@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*reset*/
+*{margin:0;padding:0;}
+body{
+   font:normal 16px/2em "돋움","Dotum",sans-serif;
+   /*font-size:16px; line-height:2em;font-family:"돋움","Dotum",sans-serif; font-weight:normal;*/
+   color:#333;
+}
+
+/*tour_wrap*/
+#wrap{width:1200px; margin:20px auto;}
+#wrap h1{text-align:center;}
+#tbl{width:1200px; border-collapse:collapse;}
+#tbl caption{text-align:left; font-weight:bold; margin:10px 0;}
+#tbl th, #tbl td{padding:10px;border:1px solid #999;}
+#tbl th{background-color:#c8edff;}
+#tbl .h_line{border-top:5px solid #ff8000;}
+#tbl td{text-align:center;}
+#tbl .under{border-bottom:1px solid #000;}
+#wrap ul{margin:10px 25px;}
+
+/* html 순서대로 css 작업 */
