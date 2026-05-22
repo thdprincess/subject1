@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>layout4</title>
+  <style>
+    /* reset */
+    * { margin: 0; padding: 0; }
+
+    /* wrap */
+    #wrap { width: 1200px; height: 900px; margin: 0 auto; }
+    header { width: 100%; height: 100px; background-color: orange; margin-bottom: 20px; }
+    section { width: 100%; height: 660px; }
+    #left { width: 760px; height: 660px; float: left; margin-right: 20px; background-color: orange; }
+    #center { width: 200px; height: 660px; float: left; background-color: orange; }
+    #right { width: 200px; height: 660px; float: right; background-color: orange; }
+    footer { width: 100%; height: 100px; background-color: orange; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <div id="wrap">
+    <header></header>
+    <section>
+      <article id="left"></article>
+      <article id="center"></article>
+      <article id="right"></article>
+    </section>
+    <footer></footer>
+  </div><!-- wrap -->
+</body>
+</html>
