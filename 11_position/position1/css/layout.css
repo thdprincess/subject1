@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/*reset*/
+* { margin:0; padding:0; }
+ul, li { list-style: none; }
+a { text-decoration: none; color: inherit; }
+body { background-color: #f1f1f1; }
+
+.blind { width: 1px; height: 1px; overflow: hidden; position: absolute; clip-path: inset(50%); }
+
+/*wrap*/
+#wrap { width:1600px; overflow:hidden; margin:40px auto; }
+#left_w { width:1060px; height:795px; float:left; background: url("../images/main_bg.jpg") no-repeat left top / cover; position:relative; }
+.left { position:absolute; z-index:5;  }
+.left1 { top:30px; left:30px; z-index:10; }
+.left1:hover { top:25px; left:35px; }
+.left2 { top:50%; left: 50%; transform: translate(-50%,-50%); }
+.left3 { left: 50%; transform: translateX(-50%); bottom: 30px; }
+.left3 li { float: left; margin: 0 5px; }
+
+#right_w { width:540px; height:795px; float:right; }
+#right1 { background-color:#5a6a21; width:540px;height:235px; text-align:right; position:relative; cursor:pointer; }
+.right1_txt { position:absolute; top:150px; right:300px; }
+#right1:hover { background:url("../images/con1_on.jpg") no-repeat left bottom; }
+#right1:hover .right1_txt { top:145px; right:295px; }
+
+#right2 { width:540px; height:400px; cursor:pointer; }
+.right2_1 { background-color:#915d0a; width:300px; height:400px; float:left; position:relative; }
+.right2_1_txt { position:absolute; bottom:10px; right:60px; }
+.right2_1:hover { background:#bf3f00; }
+.right2_1:hover .right2_1_txt { bottom:5px; right:50px; }
+
+.right2_2 { float:left; width:240px; height:400px;  }
+.right2_2t { background-color:#d95548; width:240px; height:200px; position:relative; }
+.right2_2t_txt { position:absolute; bottom:10px; right:40px; }
+.right2_2t:hover { background:#bf521c; }
+.right2_2t:hover .right2_2t_txt { bottom:5px; right:35px; }
+
+.right2_2b { background-color:#286371; width:240px; height:200px; position:relative; }
+.right2_2b_txt { position:absolute; bottom:10px; right:50px; }
+.right2_2b:hover { background:#007fbf; }
+.right2_2b:hover .right2_2b_txt { bottom:5px; right:45px; }
+
+#right3 { background-color:#8e6a98; position:relative; width:540px; height:160px; cursor:pointer; }
+.right3_txt { position:absolute; bottom:50px; left:100px; }
+#right3:hover { background:#3f00bf; }
+#right3:hover .right3_txt { bottom:45px; left:95px; }
+
+.left_btn { position: absolute; top:350px; left:30px; }
+.left_btn:hover { left:25px; }
+.right_btn { position: absolute; top:350px; right:30px; }
+.right_btn:hover { right:25px; }
